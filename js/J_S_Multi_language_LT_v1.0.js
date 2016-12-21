@@ -193,6 +193,7 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_spec_win10').innerHTML = arr[lang_index].lang_spec_win10;
   document.getElementById('lang_spec_dim').innerHTML = arr[lang_index].lang_spec_dim;
   document.getElementById('lang_spec_dim_cont').innerHTML = arr[lang_index].lang_spec_dim_cont;
+  document.getElementById('lang_intel').innerHTML = arr[lang_index].lang_intel;
 
  
 
