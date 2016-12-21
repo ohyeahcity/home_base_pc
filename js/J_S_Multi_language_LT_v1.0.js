@@ -174,6 +174,9 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_PLEX_left_title').innerHTML = arr[lang_index].lang_PLEX_left_title;
   document.getElementById('lang_PLEX_right_title').innerHTML = arr[lang_index].lang_PLEX_right_title;
 
+  document.getElementById('lang_buy_title').innerHTML = arr[lang_index].lang_buy_title;
+  document.getElementById('lang_shop').innerHTML = arr[lang_index].lang_shop;
+
   document.getElementById('lang_Pdt_spec').innerHTML = arr[lang_index].lang_Pdt_spec;
   document.getElementById('lang_spec_SOC').innerHTML = arr[lang_index].lang_spec_SOC;
   document.getElementById('lang_spec_MTK').innerHTML = arr[lang_index].lang_spec_MTK;
