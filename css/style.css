@@ -998,6 +998,7 @@ color:#00C0F3;
     border: 2px #fff solid;
     cursor: pointer;
     border-radius: 3px;
+    text-align: center;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
