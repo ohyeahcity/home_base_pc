@@ -18,7 +18,7 @@ html, body {
 }*/
 
 
-
+/*===============media 768 ===============*/
 @media(max-width:768px){
 
   body{
@@ -35,7 +35,7 @@ html, body {
 
 
 }
-
+/*======768以下結束=======*/
 section{
 
   width: 100%;
@@ -51,23 +51,7 @@ section{
 
 }
 
-/*.BANNER{
-  display: block;
-  width:auto;
-  height:auto;
-  background:url(../images/banner.jpg) bottom right;
-  background-size: cover;
-  padding:250px 100px 250px ;
-}
-.BANNER h1{
-  margin-bottom: 20px;
-  line-height: 20px;
-}
 
-.BUTTON1{
-  display: block;
-  margin-bottom: 10px;
-}*/
 .COMEFROME_LEFT{
   margin: 0;
   padding: 0;
@@ -122,8 +106,6 @@ section{
 
   padding-top: 100px;
   padding-bottom: 5px;
-
-
   /*background-size: cover;*/
   /*min-height: 500px;*/
 }
@@ -242,16 +224,16 @@ font-weight: bolder;
 }
 
 
-@media(max-width:768px){
+/*@media(max-width:768px){
   .COMEFROME_LEFT .TITLE{
     font-size: 30px;
-
   }
 
   .COMEFROME_RIGHT{
     min-height: 400px;
   }
 }
+*/
 .slideshow
 {
     margin-bottom: 5em;
@@ -372,7 +354,7 @@ h2 h3 h4 h5 h6 {
 
 
 /* Product Picture for Mobile  */
-.specimg_mobile{
+.pcimg_mobile{
    display: none;
 }
 
@@ -433,28 +415,22 @@ h2 h3 h4 h5 h6 {
 }
 
 
+/*==========767以下開始============*/
 @media (max-width: 767px) {
-
-
-
   .scenario_pics1{
-
   background-image: url('../images/pcstick_scenario_1_md.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 30em;
   }
   .scenario_pics2{
-
   background-image: url('../images/pcstick_scenario_2_md.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 30em;
-
-
   }
-  .scenario_pics3{
 
+  .scenario_pics3{
   display: block;
   background-image: url('../images/pcstick_scenario_3_md.jpg');
   background-repeat: no-repeat;
@@ -495,48 +471,43 @@ h2 h3 h4 h5 h6 {
       padding-bottom: 10em;
   }
 
-
-  /*.specimg_mobile{
-     display:block;
-     width:11em;
-     margin-bottom: 5em;
-  }*/
+/* 360 */
   .specimg360 {
-
+    display: none;
     background-image: url('../images/360ex/360_1.jpg');
-    background-size:     cover;                      /* <------ */
+    background-size:     cover;                      /*====360旋轉  767以下隱藏====*/
     background-repeat:   no-repeat;
-    background-position: center center;              /* optional, center the image */
+    background-position: center center; 
+  }
+  .eql360icon_css{             /*====360icom  767以下隱藏====*/
+    display: none;
   }
 
-  .spectable
-  {
+  .pcimg_mobile{          /*====360圖片  767以下出現====*/
+    display: block;
+  }
+  .spectable{
       margin-left: 0em;
       margin-right: 3em;
   }
 
-  .wireinstall-overall
-  {
+  .wireinstall-overall{
       margin-top: 4em;
       background-image: url('../images/pc_stick_wire_install_scenario_md_f.jpg');
       background-size: cover;
       min-height: 36em;
       background-repeat: no-repeat;
-
   }
 
-  .tw .wireinstall-overall
-  {
+  .tw .wireinstall-overall{
       margin-top: 4em;
       background-image: url('../images/pc_stick_wire_install_scenario_md_fc.jpg');
       background-size: cover;
       min-height: 36em;
       background-repeat: no-repeat;
-
   }
 
-  .wireplug
-  {
+  .wireplug{
       margin-top: 13em;
   }
   .wireplug h1{
@@ -548,6 +519,8 @@ h2 h3 h4 h5 h6 {
       margin-bottom: 5em;
   }
 }
+
+/*==========767以下結束============*/
 
 @media (max-width: 565px) {
   .wireinstall-overall
@@ -570,13 +543,13 @@ h2 h3 h4 h5 h6 {
 
   }
 
-  .specimg_mobile{
-     display: none;
-
+  .pcimg_mobile{
+     display: block; /*===========360圖片 565以下出現========*/
 
   }
-  .specimg360 {
-    display:block;
+
+  .specimg360 {            /*===========360旋轉 565以下隱藏========*/
+    display:none;
     /*width:9em;*/
     /*margin-bottom: 5em;*/
     background-image: url('../images/360ex/360_1.jpg');
@@ -584,6 +557,10 @@ h2 h3 h4 h5 h6 {
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;
+  }
+
+  .specimg360_mobile{
+    display:block;
   }
 
 }
@@ -638,11 +615,11 @@ h2 h3 h4 h5 h6 {
   }
 
 
-  .specimg_mobile{
+/*  .pcimg_mobile{
      display:block;
      width:7em;
     margin-bottom: 3em;
-  }
+  }*/
 
 .specimg360 {
   display: none;
@@ -976,7 +953,7 @@ color:#00C0F3;
  padding-bottom: 20px;
 }
 .buy_title h2{
-  font-size: 25px;
+  font-size: 20px;
   color: #FFFFFF;
   display: block;
   margin: 0 auto;
@@ -1007,6 +984,8 @@ color:#00C0F3;
   background: rgba(255,255,255,0.3);
   color: #fff;
 }
+
+
 
 @media (max-width: 992px) {
   .movie{
