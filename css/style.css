@@ -199,7 +199,7 @@ section{
 .product360{
   text-align:center;
   margin-top: 2em;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
 }
 
 
@@ -1065,9 +1065,9 @@ color:#00C0F3;
     display: block;
   }
 
-  .buy_title .btn{
+/*  .buy_title .btn{
     width: 60%;
-  } 
+  } */
 
 }
 
