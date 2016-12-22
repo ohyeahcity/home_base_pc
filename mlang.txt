@@ -27,7 +27,7 @@
 
       "lang_Pdt_spec": "產品規格",
       "lang_spec_SOC": "中央處理器",
-      "lang_spec_MTK": "Intel Atom x5 Z8300 1.44GHz",
+      "lang_spec_MTK": "Intel® Core™ 處理器",
       "lang_spec_mem": "記憶體",
       "lang_spec_mem_cont": "2GB DDR3L",
       "lang_spec_sd": "儲存容量",
@@ -74,7 +74,7 @@
 
       "lang_Pdt_spec": "Product Specification",
       "lang_spec_SOC": "SOC",
-      "lang_spec_MTK": "Intel Atom x5 Z8300 1.44GHz",
+      "lang_spec_MTK": "Intel® Core™ i3, i5, i7 Processors",
       "lang_spec_mem": "Memory",
       "lang_spec_mem_cont": "2GB DDR3L",
       "lang_spec_sd": "Storage",
