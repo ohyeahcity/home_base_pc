@@ -106,8 +106,8 @@ function changeImageByLang(lang_index){
 
   // 圖片路徑 請自行更換，不夠用也可以自己新增
   console.log("change image function start now");
-  var tw_img1_src="images/pcstick_banner_v2_0808.jpg";
-  var eng_img1_src="images/pcstick_banner_v2_0808_eng.jpg";
+  var tw_img1_src="images/hbpc_banner.jpg";
+  var eng_img1_src="images/hbpc_banner_eng.jpg";
   // var jp_img1_src="images/pcstick_banner_v2_0808.jpg";
 
   var tw_img2_src="images/displayport.jpg";
