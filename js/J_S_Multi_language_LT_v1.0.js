@@ -178,24 +178,47 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_shop').innerHTML = arr[lang_index].lang_shop;
 
   document.getElementById('lang_Pdt_spec').innerHTML = arr[lang_index].lang_Pdt_spec;
-  document.getElementById('lang_spec_SOC').innerHTML = arr[lang_index].lang_spec_SOC;
-  document.getElementById('lang_spec_MTK').innerHTML = arr[lang_index].lang_spec_MTK;
+  document.getElementById('lang_spec_core').innerHTML = arr[lang_index].lang_spec_core;
+  document.getElementById('lang_spec_core_cont').innerHTML = arr[lang_index].lang_spec_core_cont;
+
+  document.getElementById('lang_spec_phc').innerHTML = arr[lang_index].lang_spec_phc;
+  document.getElementById('lang_spec_phc_cont').innerHTML = arr[lang_index].lang_spec_phc_cont;
+
   document.getElementById('lang_spec_mem').innerHTML = arr[lang_index].lang_spec_mem;
   document.getElementById('lang_spec_mem_cont').innerHTML = arr[lang_index].lang_spec_mem_cont;
+
   document.getElementById('lang_spec_sd').innerHTML = arr[lang_index].lang_spec_sd;
   document.getElementById('lang_spec_sd_cont').innerHTML = arr[lang_index].lang_spec_sd_cont;
-  document.getElementById('lang_spec_extcard').innerHTML = arr[lang_index].lang_spec_extcard;
-  document.getElementById('lang_spec_extcard_cont').innerHTML = arr[lang_index].lang_spec_extcard_cont;
-  document.getElementById('lang_spec_conne').innerHTML = arr[lang_index].lang_spec_conne;
-  document.getElementById('lang_spec_conne_cont').innerHTML = arr[lang_index].lang_spec_conne_cont;
+
+  document.getElementById('lang_spec_lan').innerHTML = arr[lang_index].lang_spec_lan;
+  document.getElementById('lang_spec_lan_cont').innerHTML = arr[lang_index].lang_spec_lan_cont;
+
+  document.getElementById('lang_spec_bt').innerHTML = arr[lang_index].lang_spec_bt;
+  document.getElementById('lang_spec_bt_cont').innerHTML = arr[lang_index].lang_spec_bt_cont;
+
+  document.getElementById('lang_spec_display').innerHTML = arr[lang_index].lang_spec_display;
+  document.getElementById('lang_spec_display_cont').innerHTML = arr[lang_index].lang_spec_display_cont;
+
   document.getElementById('lang_spec_io').innerHTML = arr[lang_index].lang_spec_io;
-  document.getElementById('lang_spec_iocont').innerHTML = arr[lang_index].lang_spec_iocont;
-  document.getElementById('lang_spec_adap').innerHTML = arr[lang_index].lang_spec_adap;
-  document.getElementById('lang_spec_adap_cont').innerHTML = arr[lang_index].lang_spec_adap_cont;
-  document.getElementById('lang_spec_sys').innerHTML = arr[lang_index].lang_spec_sys;
-  document.getElementById('lang_spec_win10').innerHTML = arr[lang_index].lang_spec_win10;
+  document.getElementById('lang_spec_io_cont').innerHTML = arr[lang_index].lang_spec_io_cont;
+
+  document.getElementById('lang_spec_audio').innerHTML = arr[lang_index].lang_spec_audio;
+  document.getElementById('lang_spec_audio_cont').innerHTML = arr[lang_index].lang_spec_audio_cont;
+
+  document.getElementById('lang_spec_rf').innerHTML = arr[lang_index].lang_spec_rf;
+  document.getElementById('lang_spec_rf_cont').innerHTML = arr[lang_index].lang_spec_rf_cont;
+
+
   document.getElementById('lang_spec_dim').innerHTML = arr[lang_index].lang_spec_dim;
   document.getElementById('lang_spec_dim_cont').innerHTML = arr[lang_index].lang_spec_dim_cont;
+
+  document.getElementById('lang_spec_power').innerHTML = arr[lang_index].lang_spec_power;
+  document.getElementById('lang_spec_power_cont').innerHTML = arr[lang_index].lang_spec_power_cont;
+
+  document.getElementById('lang_spec_os').innerHTML = arr[lang_index].lang_spec_os;
+  document.getElementById('lang_spec_os_cont').innerHTML = arr[lang_index].lang_spec_os_cont;
+
+
   document.getElementById('lang_intel').innerHTML = arr[lang_index].lang_intel;
 
  
