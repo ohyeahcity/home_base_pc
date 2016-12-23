@@ -26,24 +26,44 @@
       "lang_shop": "線上商店",
 
       "lang_Pdt_spec": "產品規格",
-      "lang_spec_SOC": "中央處理器",
-      "lang_spec_MTK": "Intel® Core™ 處理器",
+      "lang_spec_core": "處理器",
+      "lang_spec_core_cont": "Intel® Core™ i3, i5, i7處理器",
+      "lang_spec_phc": "晶片組",
+      "lang_spec_phc_cont": "Intel H110",
       "lang_spec_mem": "記憶體",
-      "lang_spec_mem_cont": "2GB DDR3L",
-      "lang_spec_sd": "儲存容量",
-      "lang_spec_sd_cont": "32GB eMMC",
-      "lang_spec_extcard": "擴充卡槽",
-      "lang_spec_extcard_cont": "Micro SD( 最大128GB)",
-      "lang_spec_conne": "無線網路",
-      "lang_spec_conne_cont": "802.11 b/g/n<br>BLE<br />IR",
-      "lang_spec_io": "I/O 端口",
-      "lang_spec_iocont": "HDMI螢幕連接介面<br/>USB2.0X1<br/>Micro USB電源輸入",
-      "lang_spec_adap": "電源轉接器",
-      "lang_spec_adap_cont": "5V 2A",
-      "lang_spec_sys": "作業系統",
-      "lang_spec_win10": "Windows 10家用版(32位元)",
-      "lang_spec_dim": "產品尺寸",
-      "lang_spec_dim_cont": "38mm(W) x 100mm(L) x 9.8mm(H)",
+      "lang_spec_mem_cont": "2槽, SO-DIMM , DDR4-2133 最高8GB",
+
+      "lang_spec_sd": "儲存裝置",
+      "lang_spec_sd_cont": "SSD: 128GB to 256GB, M2 type / HDD: 500GB to 1TB, 2.5” ",
+
+      "lang_spec_lan": "有線網路",
+      "lang_spec_lan_cont": "LAN: GbE乙太網路埠",
+
+      "lang_spec_bt": "無線網路",
+      "lang_spec_bt_cont": "802.11ac, BT4.0 複合",
+
+      "lang_spec_display": "顯示輸出 ",
+      "lang_spec_display_cont": "HDMI, Display Port",
+
+      "lang_spec_io": "I/O埠",
+      "lang_spec_io_cont": "USB 3.0 x 2, USB2.0, Type C, 讀卡機(SDXC)",
+
+      "lang_spec_audio": "音效",
+      "lang_spec_audio_cont": "輸出(麥克風, 複合式耳機)",
+
+      "lang_spec_rf": "傳輸協定",
+      "lang_spec_rf_cont": "ZigBee, Zwave(Reserve USB I/F)",
+
+
+      "lang_spec_dim": "體積 ",
+      "lang_spec_dim_cont": "168mm x 165mm x 36mm",
+
+      "lang_spec_power": "電源",
+      "lang_spec_power_cont": "90W(65W)",    
+      
+      "lang_spec_os": "作業系統",
+      "lang_spec_os_cont": "Windows 10 家用版 64位元",   
+
       "lang_intel": "Intel、Intel圖誌、Intel Inside、Intel 酷睿和Core Inside均是Intel公司在美國和 其他國家的商標" 
    },
    {
@@ -73,24 +93,46 @@
       "lang_shop": "Online Shop",
 
       "lang_Pdt_spec": "Product Specification",
-      "lang_spec_SOC": "SOC",
-      "lang_spec_MTK": "Intel® Core™ i3, i5, i7 Processors",
+
+      "lang_spec_core": "Processor",
+      "lang_spec_core_cont": "Intel® Core™ i3, i5, i7 Processors",
+
+      "lang_spec_phc": "PCH",
+      "lang_spec_phc_cont": "Intel H110",
+      
       "lang_spec_mem": "Memory",
-      "lang_spec_mem_cont": "2GB DDR3L",
+      "lang_spec_mem_cont": "Memory slot: 2, SO-DIMM , DDR4-2133 up to 8GB",
+
       "lang_spec_sd": "Storage",
-      "lang_spec_sd_cont": "32GB eMMC",
-      "lang_spec_extcard": "Expansion Card",
-      "lang_spec_extcard_cont": "Micro SD( Max. 128GB)",
-      "lang_spec_conne": "Connectivity",
-      "lang_spec_conne_cont": "802.11 b/g/n<br>BLE<br />IR",
-      "lang_spec_io": "IO Ports",
-      "lang_spec_iocont": "HDMI Display<br/>USB2.0X1<br/>Micro USB DC-Jack",
-      "lang_spec_adap": "Adapter",
-      "lang_spec_adap_cont": "5V 2A",
-      "lang_spec_sys": "System",
-      "lang_spec_win10": "Windows 10 Home (32bit)",
-      "lang_spec_dim": "Dimension",
-      "lang_spec_dim_cont": "38mm(W) x 100mm(L) x 9.8mm(H)",
+      "lang_spec_sd_cont": "SSD: 128GB to 256GB, M2 type / HDD: 500GB to 1TB, 2.5” ",
+
+      "lang_spec_lan": "LAN",
+      "lang_spec_lan_cont": "LAN: Giga port",
+
+      "lang_spec_bt": "WLAN/BT",
+      "lang_spec_bt_cont": "802.11ac, BT4.0 combo",
+
+      "lang_spec_display": "Display ",
+      "lang_spec_display_cont": "HDMI out port, DP out port",
+
+      "lang_spec_io": "IO",
+      "lang_spec_io_cont": "USB 3.0 x 2, USB2.0, Type C, Card reader(SDXC)",
+
+      "lang_spec_audio": "Audio",
+      "lang_spec_audio_cont": "Audio out(MIC, earphone combo)",
+
+      "lang_spec_rf": "RF",
+      "lang_spec_rf_cont": "Support ZigBee, Zwave(Reserve USB I/F)",
+
+      "lang_spec_dim": "Dimension ",
+      "lang_spec_dim_cont": "168mm x 165mm x 36mm",
+
+      "lang_spec_power": "Power",
+      "lang_spec_power_cont": "Adaptor 90W(65W)",    
+      
+      "lang_spec_os": "OS",
+      "lang_spec_os_cont": "Windows 10 Home 64bit", 
+
       "lang_intel": "Intel, the Intel Logo, Intel Inside, Intel Core, and Core Inside are trademarks of Intel Corporation in the U.S. and/or other countries."     
    }
 ]
